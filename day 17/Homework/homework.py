@@ -38,3 +38,5 @@ result = shecvla(name_list)
 
 print("shecvlili listi:")
 print(result)
+##
+
