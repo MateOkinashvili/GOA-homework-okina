@@ -1,0 +1,20 @@
+.p1 {
+    color:rgb(3, 180, 250);
+}
+.p2 {
+    color:rgb(125, 12, 231);
+}
+.p3 {
+    color:rgb(199, 17, 17);
+}
+.p4 {
+    color:rgb(156, 218, 33);
+}
+
+.info {
+    text-align: center;
+
+    border-style: dotted;
+
+    border-color: chocolate;
+}

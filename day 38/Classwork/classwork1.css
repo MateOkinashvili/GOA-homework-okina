@@ -1,0 +1,18 @@
+body {
+    background-color: #4070f4;
+}
+
+.forma {
+    text-align: center; 
+    border: 2px solid black;  
+    padding: 20px;            
+    width: 300px;             
+    border-radius: 10px;      
+    margin: 0 auto;
+    background-color: white; 
+}
+
+.btn {
+    background-color: #0171D3;
+    color: white;
+}
