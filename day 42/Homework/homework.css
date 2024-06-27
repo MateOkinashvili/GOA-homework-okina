@@ -1,0 +1,138 @@
+
+.lis {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.lis a {
+    text-decoration: none;   
+}
+
+.yrwb {
+    padding: 20px;
+    margin-right: 330px;
+    margin-left: 415px;
+
+    font-size: 22px;
+    color: #443A5C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.yrwb a:active {
+    color: #443A5C;
+}
+
+.yrwb a:visited {
+    color: #443A5C;
+}
+
+.lil {
+
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #797a7a;
+    
+}
+
+.lil1 {
+    color: white;
+    border: none;
+    background-color: #6e5a99;
+    font-weight: bold;
+
+    border-radius: 30px;
+
+    padding: 20px;
+
+}
+
+.lil1 a {
+    color: white;
+}
+
+.lill a {
+    color: #a6a7a8;
+}
+
+.lil1 {
+    cursor: pointer;
+}
+
+
+.hh {
+    color: #465B65;
+
+    padding-top: 120px;
+    padding-left: 150px;
+
+}
+
+.forma {
+
+    margin-top: 200px;
+    margin-left: 720px;
+
+    width: 400px;
+    height: 500px;
+
+
+    border-radius: 25px;
+    background-color: white;
+    border: 5px solid rgb(101, 78, 165);
+
+ 
+}
+
+input {
+
+    margin-left: 41px;
+    width: 320px; 
+    height: 45px;  
+
+    background-color: #E8F0FE;
+    border-radius: 10px;
+    border: none;
+}
+
+::placeholder {
+    padding-left: 15px;
+}
+
+.pss {
+
+    display: flex;
+
+    font-size: 15px;
+
+    text-decoration: none;
+
+    margin-top: 9px;
+    margin-left: 250px;
+    margin-bottom: 9px;
+}
+
+.dnt {
+
+    display: flex;
+    
+    margin-top: 9px;
+    margin-left: 168px;
+
+    font-size: 15px;
+}
+
+.formm a {
+    text-decoration: none;
+}
+
+.sub {
+    color: white;
+    background-color: #2962FF;
+}
+
+.sub:hover {
+    cursor: pointer;
+}
+

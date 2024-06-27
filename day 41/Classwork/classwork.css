@@ -8,8 +8,8 @@
     margin-top: 300px;
     margin-left: 780px;
 
-    width: 1000px;
-    height: 500px;
+    width: 500px;
+    height: 250px;
 
     background-image: url("tokyo.png");
     background-size: cover;
@@ -32,16 +32,16 @@
     background-color: rgba(70, 116, 216, 0.2);
     color: white;
 
-    padding-top: 190px;
+    padding-top: 100px;
     
 
 }
 
 .text-div h1 {
-    font-size: 90px;
+    font-size: 45px;
 }
 
 .text-div p {
-    font-size: 32px;
+    font-size: 16px;
 }
 

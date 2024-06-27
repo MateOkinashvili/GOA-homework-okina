@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.boxi {
+
+    margin-top: 200px;
+    margin-left: 700px;
+
+    width: 570px;
+    height: 615px;
+
+    border: 2px solid #504F54;
+    border-radius: 30px;
+
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+
+    background-color: #242329;
+}
+
+.boxi1 {
+
+    width: 540px;
+    height: 585px;
+
+    border: 2px solid #504F54;
+    border-radius: 30px;
+
+    background-color: #28272E;
+
+}
+
+.pfp {
+    width: 85px;
+    height: 85px;
+
+    background-image: url("bob.png");
+    background-size: cover;
+    background-position: center;
+
+    border: double #423F45;
+    border-radius: 50%;
+
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 35px;
+
+}
+
+.text h3 {
+    background: linear-gradient(to top left,#8330bb,#fa1717,#f10bd3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text1 {
+
+    margin-top: 20px;
+    margin-left: 37px;
+
+    font-size: 25px;
+
+    font-weight: lighter;
+
+}
+
+.text1 h1{
+    color: white;
+    font-weight: 50;
+}
+
+.text1 p{
+    color: #616064;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+
+    margin-top: 25px;
+    margin-left: 35px;
+    padding-right: 25;
+
+    background: linear-gradient(to top left,#8330bb,#fa1717,#cef10b);
+    font-size: larger;  
+    color: white;
+
+    border: transparent;
+    border-radius: 25px;
+
+
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+
+
