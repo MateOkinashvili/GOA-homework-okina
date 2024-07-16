@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F0F0;
+}
+
+.rr {
+    width: 2000px;
+    height: 1100px;
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px rgb(154, 156, 156);
+    background-color: #D6E1FF;
+
+    display: flex;
+    
+    position: absolute;
+    top: 80px;
+    left: 280px;
+}
+
+.dayofa {
+    position: relative;
+    top: 145px;
+    left: 722px;
+
+    height: 800px;
+    width: 555px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    box-shadow: 5px 5px 15px rgb(172, 173, 173);
+
+}
+
+.pirveli {
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url("surati.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.pirveli h1, p {
+    position: relative;
+    left: 130px;
+    top: 350px;
+}
+
+.pirveli h1 {
+    color: #313E4D;
+    font-size: 40px;
+}
+
+.pirveli p {
+    color: #767D8F;
+    font-size: 22px;
+
+    position: relative;
+    top: 360px;
+    right: 50;
+}
+

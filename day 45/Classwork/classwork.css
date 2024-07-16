@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parent {
+    width: 1800px;
+    height: 800px;
+    border: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    overflow: hidden;
+    
+
+}
+
+
+.child{
+
+    border: none;
+    border-radius: 25px;
+
+    box-shadow: -5px 5px 20px rgb(219, 217, 217);
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    color: white;
+    
+}
+
+
+
+
+.tk {
+    background-image: url("tokyo.png");
+}
+
+.tb {
+    background-image: url("tbilisi.png");
+}
+
+.ny {
+    background-image: url("york.png");
+}
+
+.pr {
+    background-image: url("paris.png");
+}
+
+.sk {
+    background-image: url("korea.png");
+}
+
+.db {
+    background-image: url("dubai.png");
+}
+

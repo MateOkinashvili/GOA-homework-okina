@@ -1,0 +1,306 @@
+body {
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    list-style-type: none;
+
+    display: flex;
+    position: fixed;
+
+    background-color: #1992D4;
+
+    width: 430px;
+    height: 100%;
+
+}
+
+nav h1 {
+    font-size: 40px;
+    position: absolute;
+
+    left: 25px;
+    color: white;
+
+}
+
+nav h1 i {
+    padding-right: 15px;
+
+    font-size: 55px;
+
+    position: relative;
+    top: 6px;
+}
+
+
+nav li {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    top: 150px;
+    right: 25px;
+
+    font-size: 30px;
+    transition: 0.25;
+}
+
+nav li:hover {
+    position: relative;
+    left: 5px;
+}
+
+nav li:nth-last-child(-n+3) {
+    position: relative;
+    top: 250px;
+}
+
+li i {
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.topi {
+    position: relative;
+
+    top: 0;
+    left: 430px;
+
+    font-size: 28px;
+
+    width: 100%;
+    height: 290px;
+
+    border-bottom: 7px solid #D2D7DF;
+}
+
+.topp {
+    position: relative;
+    top: 49px;
+
+    left: 75px;
+}
+
+input {
+
+    width: 1210px;
+    height: 46px;
+    background-color: #E2E8F0;
+    border: none;
+    border-radius: 19px;
+
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+
+.fa-bell {
+    position: relative;
+    left: 222px;
+    top: 4px;
+    color: black;
+    font-size: 35px;
+}
+
+.fa-bell a {
+    text-decoration: none;
+}
+
+.prof {
+    position: relative;
+    bottom: 65px;
+    left: 1560px;
+
+    width: 80px;
+    height: 80px;
+    background-image: url("cat.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.sss {
+    position: relative;
+    left: 1680px;
+    bottom: 155px;
+}
+
+
+.prof1 {
+    position: relative;
+    bottom: 125px;
+    width: 115px;
+    height: 115px;
+    background-image: url("cat.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;   
+
+}
+
+.prof1 h6 {
+    position: relative;
+    left: 150px;
+    top: 10px;    
+}
+
+.taggg {
+    position: relative;
+    left: 146px;
+    bottom: 235px;
+}
+
+.buttons button {
+    background-color: #1992D4;
+    color: white;
+
+    font-size: 25px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 25px;
+    transition: 0.15s;
+}
+
+.buttons {
+    position: relative;
+    left: 1250px;
+    bottom: 271px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+    width: 180px;
+    height: 65px;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 500px;
+    width: 1250px;
+    height: 800px;
+    border: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    overflow: hidden;
+    
+
+}
+
+.child{
+
+    border-left: 10px solid #F0B429;
+    border-radius: 13px;
+    background-color: white;
+
+    box-shadow: 0px 5px 20px rgb(219, 217, 217);
+
+    font-size: 30px;
+    color: rgb(20, 20, 20);
+    
+}
+
+.ppp {
+    position: relative;
+    left: 480px;
+    top: 0;
+    font-size: 30px;
+    
+}
+
+body {
+    background-color: #E2E8F0;
+}
+
+.topi {
+    background-color: white;
+}
+
+.child h4 {
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+}
+
+.child h4:hover {
+    cursor: default;
+}
+
+.icons a {
+    padding-left: 15px;
+    font-size: 35px;
+    color: black;
+
+    position: relative;
+    left: 410px;
+    top: 85px;
+}
+
+.anc {
+    font-size: 25px;
+    position: relative;
+    left: 1900px;
+    bottom: 895px;
+}
+
+.announcements {
+    position: relative;
+    bottom: 7px;
+
+    width: 500px;
+    height: 330px;
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 0px 5px 20px rgb(219, 217, 217);
+}
+
+.announcements hr {
+    position: relative;
+    top: 165;
+
+    width: 390px;
+    height: 3px;
+    background-color: #999999;
+    border-radius: 25px;
+}
+
+.announcements p {
+    position: relative;
+    bottom: 17px;
+    color: #999999;
+}
+
+.anons {
+    position: absolute;
+    left: 55px;
+}
+
+
+.anons1 {
+    position: absolute;
+    left: 55px;
+    top: 155px;
+}

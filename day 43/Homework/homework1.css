@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+    align-items: flex-end;
+
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+
+    flex-wrap: wrap;
+    
+    width: 120px;
+    height: 120px;  
+    
+
+}
+
+.item:nth-child(1) {
+    background-color: red;
+}
+
+.item:nth-child(2) {
+    background-color: blue;
+}
+
+.item:nth-child(3) {
+    background-color: green;
+}
+
+.item:nth-child(4) {
+    background-color: yellow;
+}
+
+.item:nth-child(5) {
+    background-color: purple;
+}
+
+.item:nth-child(6) {
+    background-color: red;
+}
+
+.item:nth-child(7) {
+    background-color: blue;
+}
+
+.item:nth-child(8) {
+    background-color: green;
+}
+
+.item:nth-child(9) {
+    background-color: yellow;
+}
+
+.item:nth-child(10) {
+    background-color: purple;
+}
+
+.item:nth-child(11) {
+    background-color: red;
+}
+
+.item:nth-child(12) {
+    background-color: blue;
+}
+
+.item:nth-child(13) {
+    background-color: green;
+}
+
+.item:nth-child(14) {
+    background-color: yellow;
+}
+
+.item:nth-child(15) {
+    background-color: purple;
+}
+
+.item:nth-child(16) {
+    background-color: green;
+}
+
+.item:nth-child(17) {
+    background-color: yellow;
+}
+
+.item:nth-child(18) {
+    background-color: purple;
+}
+
+.item:nth-child(19) {
+    background-color: yellow;
+}
+
+.item:nth-child(20) {
+    background-color: purple;

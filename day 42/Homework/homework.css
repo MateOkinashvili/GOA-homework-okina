@@ -56,6 +56,10 @@
     color: #a6a7a8;
 }
 
+.lill a:hover {
+    color: #767777;
+}
+
 .lil1 {
     cursor: pointer;
 }
