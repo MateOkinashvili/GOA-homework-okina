@@ -1,0 +1,21 @@
+/* aq maq gamoyenebuli position relative ritic gadavaadgile
++ maq shecvlili zoma da ferebi da transitioni damatebuli*/
+button {
+    position: relative;
+    left: 1200px;
+    top: 540px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    color: white;
+    background-color: #0171d3;
+    font-size: 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+/* hoveri da gadideba + 360gradusit datrialeba*/
+button:hover {
+    transform: scale(1.5) rotate(360deg);
+    cursor: pointer;
+}

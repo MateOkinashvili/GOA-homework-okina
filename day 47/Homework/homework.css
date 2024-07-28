@@ -48,23 +48,54 @@ body {
     background-size: cover;
 }
 
-.pirveli h1, p {
+.meore h1, p {
     position: relative;
     left: 130px;
-    top: 350px;
+    top: 45px;
+    
 }
 
-.pirveli h1 {
+.meore h1 {
     color: #313E4D;
     font-size: 40px;
+    font-weight: bold;
 }
 
-.pirveli p {
+.meore p {
     color: #767D8F;
     font-size: 22px;
 
     position: relative;
-    top: 360px;
-    right: 50;
+    right: 40px;
+    top: 60px;
+
 }
 
+.ann {
+    width: 400px;
+    height: 130px;
+    background-color: #F6FAFD;
+    position: relative;
+    top: 90px;
+    left: 78px;
+    border-radius: 20px;
+}
+
+.mus {
+    position: relative;
+    top: 28px;
+    background-color: #E3E7F6;
+    width: 68px;
+    height: 68px;
+    position: relative;
+    left: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ann i {
+    color: #8488A4;
+    transform: scale(1.7);
+}
