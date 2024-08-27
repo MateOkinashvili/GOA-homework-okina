@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>day 57</title>
+    </head>
+
+    <link rel="stylesheet" href="classwork.css">
+
+    <body>
+
+        <div class="divi">
+
+        <p id="count">0</p>
+
+        <button id="momateba">+1</button>
+        <button id="reset">reset</button>
+        <button id="dakleba">-1</button>
+
+        </div>
+
+        <script>
+
+            const p = document.getElementById("count");
+            const momateba = document.getElementById("momateba");
+            const dakleba = document.getElementById("dakleba")
+            const reset = document.getElementById("reset");
+
+            let count = 0;
+
+            momateba.addEventListener("click", function(){
+                count++;
+                p.textContent = count;
+            })
+
+            dakleba.addEventListener("click", function(){
+                count--;
+                p.textContent = count;
+            })
+
+            reset.addEventListener("click", function(){
+                count = 0;
+                p.textContent = 0;
+            })
+
+            
+        </script>
+    </body>
+</html>

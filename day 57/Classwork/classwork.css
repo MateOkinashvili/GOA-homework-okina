@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.divi p {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+}
+
+.divi {
+    transform: scale(5);
+
+    border: 10px solid rgb(52, 53, 52);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.divi button {
+    padding: 3px 4px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.divi button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
