@@ -1,4 +1,4 @@
-const password = "luka1234";
+const password = "okinnaa";
 let pass;
 let attempts = 3;
 
