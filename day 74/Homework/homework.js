@@ -97,10 +97,6 @@ class Lion extends Animal{
         console.log(this.name + 'roar');
     }
 
-    static lionInfo() {
-        console.log('Lions are big cats known for their majestic manes.');
-    }
-
 }
 
 let lion = new Animal('nala', 'Lion', 4);
@@ -113,4 +109,3 @@ elephant.speak();
 elephant.displayDetails();
 
 Animal.generalInfo();
-Lion.lionInfo();
