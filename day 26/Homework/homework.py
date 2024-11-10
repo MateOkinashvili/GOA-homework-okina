@@ -6,7 +6,7 @@ print(saxeli.upper())
 print(saxeli.capitalize())
 ##
 
-#2)
+#3)
 def manual_len(collection):
     count = 0
     for item in collection:
@@ -14,3 +14,6 @@ def manual_len(collection):
     return count
 
 print(manual_len(["mate", "gio", 8, False, "luka"]))
+##
+
+
