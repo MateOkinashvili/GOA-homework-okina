@@ -129,7 +129,7 @@ input {
 
     width: 80px;
     height: 80px;
-    background-image: url("");
+    background-image: url("cat.png");
     background-position: center;
     background-size: cover;
     border-radius: 50%;
