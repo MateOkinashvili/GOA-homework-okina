@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.shape {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.square {
+    background-color: pink;
+}
+
+.circle {
+    background-color: orange;
+    clip-path: circle(50%);
+}
+
+.triangle {
+    background-color: lightblue;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}

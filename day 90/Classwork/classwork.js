@@ -12,17 +12,4 @@ function ertnairia(pirveli, meore) {
     return true;
 }
 
-first = [1,3,4,5,7]
-second = [1,3,4,5,6]
 
-frst = [1,3,4,5,5,7,9]
-scnd = [1,3,4,5,5,7,9]
-
-sss = [2,2,3,3,4,4]
-ddd = [22,33,44,44]
-
-console.log(ertnairia(first, second))
-
-console.log(ertnairia(frst, scnd))
-
-console.log(ertnairia(sss, ddd))
