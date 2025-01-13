@@ -1,0 +1,30 @@
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="homework.css">
+  <title>day 98</title>
+</head>
+<body>
+  <div id="name-prompt" class="hidden">
+    <h1>Welcome! Please enter your name:</h1>
+    <input type="text" id="name-input" placeholder="Your name">
+    <button id="submit-name">Enter</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <h1>Hello, <span id="user-name"></span>!</h1>
+    <p>Score: <span id="score">0</span></p>
+    <input type="color" id="color-picker">
+    <label for="color-picker">Pick a Background Color</label>
+    <br>
+    <p>Guess the number: <span id="range"></span></p>
+    <input type="number" id="guess-input" placeholder="Your guess">
+    <button id="guess-btn">Submit Guess</button>
+  </div>
+
+  <script src="homework.js"></script>
+
+</body>
+
+</html>

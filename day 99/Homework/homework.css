@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #0171d3;
+}
+  
+#item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 100px auto;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    transition: 150ms;
+}
+
+#item:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+  
+#item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+  
+#item h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+  
+#item p {
+    color: #555;
+    margin: 5px 0;
+}
+  
