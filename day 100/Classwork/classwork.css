@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  #products {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .product-box p {
+    margin: 5px 0;
+  }
+  
