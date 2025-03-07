@@ -1,7 +1,7 @@
 document.body.children[0].textContent = 'mate';
 document.body.children[0].style.color = 'blue';
 
-console.log(document.getElementById('okinaa'));
+console.log(document.getElementById('okinaaa'));
 
 function ElementById(id) {
     const elements = document.all;
@@ -13,4 +13,4 @@ function ElementById(id) {
     }
 }
 
-console.log(ElementById('okinaa'))
+console.log(ElementById('okinaaa'))

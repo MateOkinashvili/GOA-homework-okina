@@ -1,15 +1,14 @@
-function ertnairia(pirveli, meore) {
-    if (pirveli.length !== meore.length) {
-        return false;
-    }
+const friends = new Map([
+    ["gio", 25],
+    ["mate", 30],
+    ["nika", 28]
+  ]);
 
-    for (let i = 0; i < pirveli.length; i++) {
-        if (pirveli[i] !== meore[i]) {
-            return false;
-        }
-    }
+//
 
-    return true;
-}
+const colors = new Set(["ლურჯი", "მწვანე", "წითელი", "ყვითელი", "შავი"]);
 
+console.log(colors.has("წითელი"));
+
+//
 
