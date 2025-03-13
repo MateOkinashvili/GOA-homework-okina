@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+}
+
+main {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.academy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50px; 
+}
+
+.academy .count {
+    font-size: 13px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.academy .name {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
