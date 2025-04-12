@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kgjghjghj</title>
+    <link rel="stylesheet" href="homework.css">
+</head>
+<body>
+    <div class="box">
+        <form>
+            <h1>Contact Us</h1>
+            
+            <div class="row">
+                <div class="grp">
+                    <label for="firstName">First Name <span class="req">*</span></label>
+                    <input type="text" id="firstName" required>
+                </div>
+                
+                <div class="grp">
+                    <label for="lastName">Last Name <span class="req">*</span></label>
+                    <input type="text" id="lastName" required>
+                </div>
+            </div>
+            
+            <div class="grp">
+                <label for="email">Email Address <span class="req">*</span></label>
+                <input type="email" id="email" required>
+            </div>
+            
+            <div class="grp">
+                <label>Query Type <span class="req">*</span></label>
+                <div class="rad">
+                    <div class="opt">
+                        <input type="radio" id="generalEnquiry" name="queryType" required>
+                        <label for="generalEnquiry">General Enquiry</label>
+                    </div>
+                    <div class="opt">
+                        <input type="radio" id="supportRequest" name="queryType" required>
+                        <label for="supportRequest">Support Request</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="grp">
+                <label for="message">Message <span class="req">*</span></label>
+                <textarea id="message" rows="5" required></textarea>
+            </div>
+            
+            <div class="grp chk">
+                <input type="checkbox" id="consent" required>
+                <label for="consent">I consent to being contacted by the team <span class="req">*</span></label>
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

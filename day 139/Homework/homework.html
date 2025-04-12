@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Age Calc</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="bg-white p-6 rounded-xl shadow-lg w-80 text-center">
+    <div class="flex justify-between mb-4">
+      <input id="d" type="number" value="0" min="1" max="31" class="w-20 p-2 border rounded" />
+      <input id="m" type="number" value="0" min="1" max="12" class="w-20 p-2 border rounded" />
+      <input id="y" type="number" value="0" min="1" class="w-20 p-2 border rounded" />
+    </div>
+    <button id="go" class="bg-purple-500 text-white px-4 py-2 rounded-full mb-4 hover:bg-purple-600">→</button>
+    <div id="out" class="text-left text-2xl font-bold space-y-1">
+      <p><span class="text-purple-500">0</span> years</p>
+      <p><span class="text-purple-500">0</span> months</p>
+      <p><span class="text-purple-500">0</span> days</p>
+    </div>
+  </div>
+
+  <script src="homework.js"></script>
+</body>
+</html>

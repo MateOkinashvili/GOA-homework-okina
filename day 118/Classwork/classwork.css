@@ -1,0 +1,105 @@
+body {
+    background-color: #141414;   
+}
+
+
+
+
+.nacrisferi {
+    height: 600px;
+    width: 400px;
+    background-color: #1F1F1F;
+    margin: auto;
+    position: relative;
+    top: 105px;
+    border-radius: 15px;
+    box-shadow: 5px 3px 5px rgb(29, 29, 29);
+}
+
+.surati {
+    height: 85px;
+    width: 85px;
+    background-image: url("cotne.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.surati p {
+    position: relative;
+    top: 110px;
+    transform: scale(1.7);
+    color: white;
+    font-weight: bold;
+}
+
+.surati p:nth-child(2) {
+    transform: scale(1.4);
+    top: 115px;
+    left: 15px;
+    color: #B8CD68;
+}
+
+
+.buttonsss {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 300px;
+    height: 45px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #333333;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px rgb(41, 41, 41);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1400px) {
+    .nacrisferi {
+        transform: scale(1.2);
+    }
+    .didishavi {
+        width: 1200px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+
+    .didishavi {
+        width: 900px;
+    }
+  }
+
+
+  @media only screen and (max-width: 800px) {
+
+    .didishavi {
+        width: 700px;
+    }
+  }
+
+  @media only screen and (max-width: 555px) {
+
+    .nacrisferi {
+        transform: scale(1.3);
+    }
+    .didishavi {
+        width: 600px;
+    }
+  }
